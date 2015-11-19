@@ -35,7 +35,9 @@
 >* Alternating Least Squares (ALS)
 
 > ## Topic Models
->* Probability Latent Semantic Analysis (pLSA)
+>* Latent Semantic Indexing (LSI)
+
+>* Probability Latent Semantic Indexing (pLSI)
 
 >* Latent Dirichlet Allocation (LDA)
 
@@ -49,8 +51,6 @@
 
 > ## Dimensionality Reduction
 
->* Singular Value Decomposition (SVD)
-
 >* Principal Component Analysis (PCA)
 
 > ## Frequent Pattern Mining
@@ -61,7 +61,15 @@
 
 >* PrefixSpan
 
-> ## Optimization 
+> ## Linear Algebra
+
+>* Eigenvalue Decomposition
+
+>* Singular Value Decomposition (SVD)
+
+>* Low Rank Matrix Decomposition
+
+> ## Numerical Optimization 
 
 >* Batch gradient descent
 
