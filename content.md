@@ -1,38 +1,41 @@
 ## Classification and Regression 分类与回归
 
-* Linear Models
-    + Linear Regression
-    + Logistic Regression
-    +  SVMs
+* Generalized Linear Models 泛化线性模型
+    + Linear Regression 线性回归
+    + Logistic Regression 逻辑回归
+    + SVM 支持向量机
+        - Linear Kernel 线性核
+        - Gaussian Kernel 高斯核
 
-* Neural Network (NN)
+* Neural Network (NN) 神经网络
 
-* Naive Bayes (NB)
+* Bayesian
+    + Naive Bayes (NB) 朴素贝叶斯
 
-* Decision trees 
+* Decision Trees 决策树
     + ID3
     + C4.5
     + Classification and Regression Tree (CART)
 
-* Ensembles of trees 
-    + Random Forests
+* Ensembles of Trees 
+    + Random Forests 随机森林
     + Gradient-Boosted Trees
 
 * Isotonic regression
 
-## Clustering
+## Clustering 聚类
 
-* K-means
+* K-means K-均值
 
-* Gaussian Mixture Model (GMM)
+* Gaussian Mixture Model 混合高斯模型 (GMM)
 
 * power iteration clustering (PIC)
 
-## Dimensionality Reduction
+## Dimensionality Reduction 降维
 
-* Principal Component Analysis (PCA)
+* Principal Component Analysis 主成分分析 (PCA)
 
-## Frequent Pattern Mining
+## Frequent Pattern Mining 频繁模式挖掘
 
 * Association Rules
 
@@ -47,13 +50,13 @@
 ## Topic Models [主题模型](http://blog.csdn.net/hxxiaopei/article/details/7617838)
 * Latent Semantic Indexing (LSI)
 
-* Probability Latent Semantic Indexing ([pLSI](http://www.52nlp.cn/%E6%A6%82%E7%8E%87%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E5%8F%8A%E5%85%B6%E5%8F%98%E5%BD%A2%E7%B3%BB%E5%88%971-plsa%E5%8F%8Aem%E7%AE%97%E6%B3%95))
+* Probability Latent Semantic Indexing ([pLSI](http://www.52nlp.cn/%E6%A6%82%E7%8E%87%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E5%8F%8A%E5%85%B6%E5%8F%98%E5%BD%A2%E7%B3%BB%E5%88%971-plsa%E5%8F%8Aem%E7%AE%97%E6%B3%95)) [[SIGIR 1999](http://dl.acm.org/citation.cfm?id=312649)]
 
 * Unigram model
 
 * Mixture of unigrams model
 
-* Latent Dirichlet Allocation ([LDA](http://blog.csdn.net/v_july_v/article/details/41209515))
+* Latent Dirichlet Allocation ([LDA](http://blog.csdn.net/v_july_v/article/details/41209515)) [[JMLR 2003](http://dl.acm.org/citation.cfm?id=944919.944937)]
 
 ## Sequence Labeling [序列标注](http://blog.csdn.net/caohao2008/article/details/4242308) 
 
@@ -79,26 +82,28 @@
 
 ## Probability and Mathematical Statistics 概率论与数理统计
 
-<!-- >* Probability Distributions -->
+* Probability Distributions 概率分布
+    + Beta distribution vs. Binomial distribution
+    + Dirichlet distribution vs. Multinomial distribution
 
-* Beta distribution vs. Binomial distribution
-
-* Dirichlet distribution vs. Multinomial distribution
-
-
+* Parameter Estimation 参数估计方法
+    + Maximum Likelihood Estimation 最大似然估计 (MLE)
+    + Maximum A Posteriori probability 最大后验概率 (MAP)
+    + Expectation Maximization 期望最大化 ([EM](http://blog.csdn.net/zouxy09/article/details/8537620))
+    
 ## Numerical Optimization 数值优化
 
-* Batch gradient descent 批量梯度下降
+* (Batch) Gradient Descent 梯度下降法/最速下降法 (GD)
 
-* Stochastic gradient descent 随机梯度下降
+* Stochastic Gradient Descent 随机梯度下降法 (SGD)
 
-* Conjugate gradient descent 共扼梯度下降
+* Conjugate Gradient Descent [共扼梯度下降法](http://www.cnblogs.com/daniel-D/p/3377840.html)
 
 * Levenberg-marquardt 
 
-* Newton method 牛顿法
+* Newton Method [牛顿法](http://blog.csdn.net/dsbatigol/article/details/12448627)
 
-* Qusi-newton method 拟牛顿法
+* Qusi-newton Method [拟牛顿法](http://blog.csdn.net/itplus/article/details/21896453)
     + DFP
     + BFGS
     + L-BFGS
