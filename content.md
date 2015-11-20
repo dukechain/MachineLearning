@@ -1,100 +1,109 @@
-## Classification and Regression
+## Classification and Regression 分类与回归
 
-* Linear Models
-    + Linear Regression
-    + Logistic Regression
-    +  SVMs
+* Generalized Linear Models 泛化线性模型
+    + Linear Regression 线性回归
+    + Logistic Regression 逻辑回归
+    + SVM 支持向量机
+        - Linear Kernel 线性核
+        - Gaussian Kernel 高斯核
 
-* Neural Network (NN)
+* Neural Network (NN) 神经网络
 
-* Naive Bayes (NB)
+* Bayesian
+    + Naive Bayes (NB) 朴素贝叶斯
 
-* Decision trees 
+* Decision Trees 决策树
     + ID3
     + C4.5
     + Classification and Regression Tree (CART)
 
-* Ensembles of trees 
-    + Random Forests
+* Ensembles of Trees 
+    + Random Forests 随机森林
     + Gradient-Boosted Trees
 
 * Isotonic regression
 
+## Clustering 聚类
 
-## Clustering
+* K-means K-均值
 
-* K-means
-
-* Gaussian Mixture Model (GMM)
+* Gaussian Mixture Model 混合高斯模型 (GMM)
 
 * power iteration clustering (PIC)
 
+## Dimensionality Reduction 降维
 
-## Collaborative Filtering
+* Principal Component Analysis 主成分分析 (PCA)
 
-* Alternating Least Squares (ALS)
+## Frequent Pattern Mining 频繁模式挖掘
 
-## Topic Models [[1]](http://blog.csdn.net/v_july_v/article/details/41209515) [[2]](http://www.52nlp.cn/%E6%A6%82%E7%8E%87%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E5%8F%8A%E5%85%B6%E5%8F%98%E5%BD%A2%E7%B3%BB%E5%88%971-plsa%E5%8F%8Aem%E7%AE%97%E6%B3%95)
-* Latent Semantic Indexing (LSI)
-
-* Probability Latent Semantic Indexing ([pLSI](http://blog.csdn.net/hxxiaopei/article/details/7617838))
-
-* Unigram model
-
-* Mixture of unigrams model
-
-* Latent Dirichlet Allocation (LDA)
-
-## Sequence Labeling 
-
-* Hidden Markov Model (HMM)
-
-* Maximum Entropy Markov Model (MEMM)
-
-* Conditional Random Field (CRF)
-
-## Dimensionality Reduction
-
-* Principal Component Analysis (PCA)
-
-## Frequent Pattern Mining
+* Association Rules
 
 * FP-growth
 
-* association rules
-
 * PrefixSpan
 
-## Linear Algebra
+## Recommender System 推荐系统
+* Content Filtering 
 
-* Eigenvalue Decomposition
+* Collaborative Filtering 协同过滤
+    + Alternating Least Squares (ALS)
 
-* Singular Value Decomposition (SVD)
+## Topic Models [主题模型](http://blog.csdn.net/hxxiaopei/article/details/7617838)
+* Latent Semantic Indexing 潜语义索引 (LSI)
 
-* Low Rank Matrix Decomposition
+* Probability Latent Semantic Indexing 概率潜语义索引 ([pLSI](http://www.52nlp.cn/%E6%A6%82%E7%8E%87%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E5%8F%8A%E5%85%B6%E5%8F%98%E5%BD%A2%E7%B3%BB%E5%88%971-plsa%E5%8F%8Aem%E7%AE%97%E6%B3%95)) [[SIGIR 1999](http://dl.acm.org/citation.cfm?id=312649)]
 
-## Probability and Mathematical Statistics
+* Latent Dirichlet Allocation ([LDA](http://blog.csdn.net/v_july_v/article/details/41209515)) [[JMLR 2003](http://dl.acm.org/citation.cfm?id=944919.944937)]
 
-<!-- >* Probability Distributions -->
+## Sequence Labeling [序列标注](http://blog.csdn.net/caohao2008/article/details/4242308) 
 
-* Beta distribution vs. Binomial distribution
+* Hidden Markov Model 隐马尔科夫模型 ([HMM](http://www.52nlp.cn/hmm-learn-best-practices-one-introduction))
+    + Evaluation 评估: Forward algorithm [前向算法](http://www.cnblogs.com/tornadomeet/archive/2012/03/24/2415583.html)
+    + Decoding 解码: Viterbi algorithm [维特比算法](http://www.cnblogs.com/tornadomeet/archive/2012/03/24/2415889.htm)
+    + Learning 学习: Forward-backward algorithm 前向-后向算法
+    
+* Maximum Entropy Markov Model 最大熵马尔科夫模型 (MEMM)
+    + Label Bias Problem [标注偏置问题](http://blog.csdn.net/zhoubl668/article/details/7787690)
 
-* Dirichlet distribution vs. Multinomial distribution
+* Markov Random Field 马尔科夫随机场 (MRF)
 
+* Conditional Random Field 条件随机场 (CRF)
 
-## Numerical Optimization 
+## Linear Algebra 线性代数
 
-* Batch gradient descent
+* Eigenvalue Decomposition 特征值分解
 
-* Stochastic gradient descent
+* Singular Value Decomposition 奇异值分解 ([SVD](http://www.cnblogs.com/LeftNotEasy/archive/2011/01/19/svd-and-applications.html))
 
-* Conjugate gradient descent
+* Low Rank Matrix Decomposition 低秩矩阵分解
+
+## Probability and Mathematical Statistics 概率论与数理统计
+
+* Probability Distributions 概率分布
+    + Beta distribution vs. Binomial distribution
+    + Dirichlet distribution vs. Multinomial distribution
+
+* Parameter Estimation 参数估计方法
+    + Maximum Likelihood Estimation 最大似然估计 (MLE)
+    + Maximum A Posteriori probability 最大后验概率 (MAP)
+    + Expectation Maximization 期望最大化 ([EM](http://blog.csdn.net/zouxy09/article/details/8537620))
+    
+## Numerical Optimization 数值优化
+
+* (Batch) Gradient Descent (批量)梯度下降法/最速下降法 (GD)
+
+* Stochastic Gradient Descent 随机梯度下降法 (SGD)
+
+* Mini-Batch Gradient Descent 微型批量梯度下降
+
+* Conjugate Gradient Descent [共扼梯度下降法](http://www.cnblogs.com/daniel-D/p/3377840.html)
 
 * Levenberg-marquardt 
 
-* Newton method
+* Newton Method [牛顿法](http://blog.csdn.net/dsbatigol/article/details/12448627)
 
-* Qusi-newton method
+* Qusi-newton Method [拟牛顿法](http://blog.csdn.net/itplus/article/details/21896453)
     + DFP
     + BFGS
     + L-BFGS
