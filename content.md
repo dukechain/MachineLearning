@@ -97,13 +97,13 @@
 
 * Mini-Batch Gradient Descent 微型批量梯度下降
 
-* Conjugate Gradient Descent [共扼梯度下降法](http://www.cnblogs.com/daniel-D/p/3377840.html)
-
-* Levenberg-marquardt 
-
 * Newton Method [牛顿法](http://blog.csdn.net/dsbatigol/article/details/12448627)
 
 * Qusi-newton Method [拟牛顿法](http://blog.csdn.net/itplus/article/details/21896453)
     + DFP
     + BFGS
     + L-BFGS
+
+* Levenberg-Marquardt
+
+* Conjugate Gradient Descent [共轭梯度下降法](http://www.cnblogs.com/daniel-D/p/3377840.html)
