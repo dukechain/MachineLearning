@@ -1,4 +1,6 @@
-## Classification and Regression 分类与回归
+## 1. Basic Models 基础模型
+
+### Classification and Regression 分类与回归
 
 * Generalized Linear Models 泛化线性模型
     + Linear Regression 线性回归
@@ -23,7 +25,7 @@
 
 * Isotonic regression
 
-## Clustering 聚类
+### Clustering 聚类
 
 * K-means K-均值
 
@@ -31,11 +33,11 @@
 
 * power iteration clustering (PIC)
 
-## Dimensionality Reduction 降维
+### Dimensionality Reduction 降维
 
 * Principal Component Analysis 主成分分析 (PCA)
 
-## Frequent Pattern Mining 频繁模式挖掘
+### Frequent Pattern Mining 频繁模式挖掘
 
 * Association Rules
 
@@ -43,20 +45,24 @@
 
 * PrefixSpan
 
-## Recommender System 推荐系统
+
+
+## 2. Special Topics 专题
+
+### Recommender System 推荐系统
 * Content Filtering 
 
 * Collaborative Filtering 协同过滤
     + Alternating Least Squares (ALS)
 
-## Topic Models [主题模型](http://blog.csdn.net/hxxiaopei/article/details/7617838)
+### Topic Models [主题模型](http://blog.csdn.net/hxxiaopei/article/details/7617838)
 * Latent Semantic Indexing 潜语义索引 (LSI)
 
 * Probability Latent Semantic Indexing 概率潜语义索引 ([pLSI](http://www.52nlp.cn/%E6%A6%82%E7%8E%87%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E5%8F%8A%E5%85%B6%E5%8F%98%E5%BD%A2%E7%B3%BB%E5%88%971-plsa%E5%8F%8Aem%E7%AE%97%E6%B3%95)) [[SIGIR 1999](http://dl.acm.org/citation.cfm?id=312649)]
 
 * Latent Dirichlet Allocation ([LDA](http://blog.csdn.net/v_july_v/article/details/41209515)) [[JMLR 2003](http://dl.acm.org/citation.cfm?id=944919.944937)]
 
-## Sequence Labeling [序列标注](http://blog.csdn.net/caohao2008/article/details/4242308) 
+### Sequence Labeling [序列标注](http://blog.csdn.net/caohao2008/article/details/4242308) 
 
 * Hidden Markov Model 隐马尔科夫模型 ([HMM](http://www.52nlp.cn/hmm-learn-best-practices-one-introduction))
     + Evaluation 评估: Forward algorithm [前向算法](http://www.cnblogs.com/tornadomeet/archive/2012/03/24/2415583.html)
@@ -70,7 +76,11 @@
 
 * Conditional Random Field 条件随机场 (CRF)
 
-## Linear Algebra 线性代数
+
+
+## 3. Mathematical Fundament 数学基础
+
+### Linear Algebra 线性代数
 
 * Eigenvalue Decomposition 特征值分解
 
@@ -78,7 +88,7 @@
 
 * Low Rank Matrix Decomposition 低秩矩阵分解
 
-## Probability and Mathematical Statistics 概率论与数理统计
+### Probability and Mathematical Statistics 概率论与数理统计
 
 * Probability Distributions 概率分布
     + Beta distribution vs. Binomial distribution
@@ -89,7 +99,7 @@
     + Maximum A Posteriori probability 最大后验概率 (MAP)
     + Expectation Maximization 期望最大化 ([EM](http://blog.csdn.net/zouxy09/article/details/8537620))
     
-## Numerical Optimization 数值优化
+### Numerical Optimization 数值优化
 
 * (Batch) Gradient Descent (批量)梯度下降法/最速下降法 (GD)
 
