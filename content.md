@@ -43,18 +43,16 @@
 
 * PrefixSpan
 
-## Collaborative Filtering 协同过滤
+## Recommender System 推荐系统
+* Content Filtering 
 
-* Alternating Least Squares (ALS)
+* Collaborative Filtering 协同过滤
+    + Alternating Least Squares (ALS)
 
 ## Topic Models [主题模型](http://blog.csdn.net/hxxiaopei/article/details/7617838)
-* Latent Semantic Indexing (LSI)
+* Latent Semantic Indexing 潜语义索引 (LSI)
 
-* Probability Latent Semantic Indexing ([pLSI](http://www.52nlp.cn/%E6%A6%82%E7%8E%87%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E5%8F%8A%E5%85%B6%E5%8F%98%E5%BD%A2%E7%B3%BB%E5%88%971-plsa%E5%8F%8Aem%E7%AE%97%E6%B3%95)) [[SIGIR 1999](http://dl.acm.org/citation.cfm?id=312649)]
-
-* Unigram model
-
-* Mixture of unigrams model
+* Probability Latent Semantic Indexing 概率潜语义索引 ([pLSI](http://www.52nlp.cn/%E6%A6%82%E7%8E%87%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E5%8F%8A%E5%85%B6%E5%8F%98%E5%BD%A2%E7%B3%BB%E5%88%971-plsa%E5%8F%8Aem%E7%AE%97%E6%B3%95)) [[SIGIR 1999](http://dl.acm.org/citation.cfm?id=312649)]
 
 * Latent Dirichlet Allocation ([LDA](http://blog.csdn.net/v_july_v/article/details/41209515)) [[JMLR 2003](http://dl.acm.org/citation.cfm?id=944919.944937)]
 
@@ -76,7 +74,7 @@
 
 * Eigenvalue Decomposition 特征值分解
 
-* Singular Value Decomposition 奇异值分解 (SVD)
+* Singular Value Decomposition 奇异值分解 ([SVD](http://www.cnblogs.com/LeftNotEasy/archive/2011/01/19/svd-and-applications.html))
 
 * Low Rank Matrix Decomposition 低秩矩阵分解
 
@@ -93,9 +91,11 @@
     
 ## Numerical Optimization 数值优化
 
-* (Batch) Gradient Descent 梯度下降法/最速下降法 (GD)
+* (Batch) Gradient Descent (批量)梯度下降法/最速下降法 (GD)
 
 * Stochastic Gradient Descent 随机梯度下降法 (SGD)
+
+* Mini-Batch Gradient Descent 微型批量梯度下降
 
 * Conjugate Gradient Descent [共扼梯度下降法](http://www.cnblogs.com/daniel-D/p/3377840.html)
 
