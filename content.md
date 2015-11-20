@@ -79,6 +79,8 @@
 > > * Beta distribution vs Binomial distribution
 > > * Dirichlet distribution vs Multinomial distribution
 
+>* Probability Distributions
+
 > ## Numerical Optimization 
 
 >* Batch gradient descent
