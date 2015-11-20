@@ -76,8 +76,8 @@
 > ## Probability and Mathematical Statistics
 
 >* Probability Distributions
-> > * Beta distribution vs. Binomial distribution
-> > * Dirichlet distribution vs. Multinomial distribution
+> > * Beta distribution vs Binomial distribution
+> > * Dirichlet distribution vs Multinomial distribution
 
 > ## Numerical Optimization 
 
