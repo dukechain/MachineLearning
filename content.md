@@ -1,33 +1,43 @@
-## 1. Basic Models 基础模型
+## 1. Primary Topics 基础篇
 
 ### Classification and Regression 分类与回归
 
 * Generalized Linear Models 泛化线性模型
     + Linear Regression 线性回归
     + Logistic Regression 逻辑回归
+    + Neural Network 神经网络 (NN)
     + SVM 支持向量机
         - Linear Kernel 线性核
         - Gaussian Kernel 高斯核
 
-* Neural Network (NN) 神经网络
 
-* Bayesian
+
+* Bayesian Models 贝叶斯模型
     + Naive Bayes (NB) 朴素贝叶斯
+    + Bayesian Network/Belief Network/Directed Acyclic Graphical model [贝叶斯网络](http://blog.csdn.net/v_july_v/article/details/40984699#t6)/信念网络/有向无环图模型
 
-* Decision Trees 决策树
-    + ID3
-    + C4.5
-    + Classification and Regression Tree (CART)
+* Tree Models 树模型
+    + Decision Trees 决策树
+        - ID3
+        - C4.5
+        - Classification and Regression Tree (CART)
+    + Ensembles of Trees 
+        - Random Forests 随机森林
+        - Gradient-Boosted Trees
 
-* Ensembles of Trees 
-    + Random Forests 随机森林
-    + Gradient-Boosted Trees
+* (Classifier) Boosting (分类器)提升
+    + Ada Boosting
+    + L2 Boosting
+    + Gradient Boosting
+    + Logit Boosting
 
 * Isotonic regression
 
 ### Clustering 聚类
 
 * K-means K-均值
+
+* DB-SCAN
 
 * Gaussian Mixture Model 混合高斯模型 (GMM)
 
@@ -76,9 +86,22 @@
 
 * Conditional Random Field 条件随机场 (CRF)
 
+## 3. Important Concepts 重要概念
+
+* Bias vs. Variance 偏差与方差
+
+* Underfitting vs. Overfitting 欠拟合与过拟合
+
+* Regularization 正则化
+
+* Normalization 归一化
+
+* Learning Curve 学习曲线
+
+* Discriminative Model vs. Generative Model 判别式模型与生成式模型
 
 
-## 3. Mathematical Fundament 数学基础
+## 4. Mathematical Fundament 数学基础
 
 ### Linear Algebra 线性代数
 
@@ -91,14 +114,21 @@
 ### Probability and Mathematical Statistics 概率论与数理统计
 
 * Probability Distributions 概率分布
-    + Beta distribution vs. Binomial distribution
-    + Dirichlet distribution vs. Multinomial distribution
+    + Conjugate Prior [共轭先验](http://blog.csdn.net/xianlingmao/article/details/7340099)
+        - Posterior Distributions 后验分布 
+        - Prior Distribution 先验分布
+    + Exponential family 指数族
+        - Beta distribution and Binomial distribution
+        - Dirichlet distribution and Multinomial distribution
 
 * Parameter Estimation 参数估计方法
     + Maximum Likelihood Estimation 最大似然估计 (MLE)
     + Maximum A Posteriori probability 最大后验概率 (MAP)
     + Expectation Maximization 期望最大化 ([EM](http://blog.csdn.net/zouxy09/article/details/8537620))
     
+* Frequentist inference vs. Bayesian inference 频率推断与贝叶斯推断
+    + pLSA vs. LDA
+
 ### Numerical Optimization 数值优化
 
 * (Batch) Gradient Descent (批量)梯度下降法/最速下降法 (GD)
