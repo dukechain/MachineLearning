@@ -13,7 +13,7 @@
 
 
 * Bayesian Models 贝叶斯模型
-    + Naive Bayes (NB) 朴素贝叶斯
+    + Naive Bayes 朴素贝叶斯 (NB)
     + Bayesian Network/Belief Network/Directed Acyclic Graphical model [贝叶斯网络](http://blog.csdn.net/v_july_v/article/details/40984699#t6)/信念网络/有向无环图模型
 
 * Tree Models 树模型
@@ -131,19 +131,24 @@
 
 ### Numerical Optimization 数值优化
 
-* (Batch) Gradient Descent (批量)梯度下降法/最速下降法 (GD)
++ First Order Derivative一阶导数法
+    * (Batch) Gradient Descent (批量)梯度下降法/最速下降法 (GD)
 
-* Stochastic Gradient Descent 随机梯度下降法 (SGD)
+    * Stochastic Gradient Descent 随机梯度下降法 (SGD)
 
-* Mini-Batch Gradient Descent 微型批量梯度下降
+    * Mini-Batch Gradient Descent 微型批量梯度下降
 
-* Newton Method [牛顿法](http://blog.csdn.net/dsbatigol/article/details/12448627)
+    * Conjugate Gradient Descent [共轭梯度下降法](http://www.cnblogs.com/daniel-D/p/3377840.html)
+    
+    * Levenberg-Marquardt 
 
-* Qusi-newton Method [拟牛顿法](http://blog.csdn.net/itplus/article/details/21896453)
-    + DFP
-    + BFGS
-    + L-BFGS
++ Second Order Derivative 二阶导数法
+    * Newton Method [牛顿法](http://blog.csdn.net/dsbatigol/article/details/12448627)
 
-* Levenberg-Marquardt
+    * Qusi-newton Method [拟牛顿法](http://blog.csdn.net/itplus/article/details/21896453)
+        + DFP
+        + BFGS
+        + L-BFGS
 
-* Conjugate Gradient Descent [共轭梯度下降法](http://www.cnblogs.com/daniel-D/p/3377840.html)
+
+
