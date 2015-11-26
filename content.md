@@ -125,6 +125,9 @@
     + Maximum Likelihood Estimation 最大似然估计 (MLE)
     + Maximum A Posteriori probability 最大后验概率 (MAP)
     + Expectation Maximization 期望最大化 ([EM](http://blog.csdn.net/zouxy09/article/details/8537620))
+    + Monte Carlo Simulation [蒙特卡罗模拟](http://www.52nlp.cn/lda-math-mcmc-%E5%92%8C-gibbs-sampling1)
+        - Metropolis–Hastings algorithm
+        - Gibbs sampling
     
 * Frequentist inference vs. Bayesian inference 频率推断与贝叶斯推断
     + pLSA vs. LDA
