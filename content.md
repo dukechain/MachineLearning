@@ -2,14 +2,14 @@
 
 ### Classification and Regression 分类与回归
 
-* Generalized Linear Models 泛化线性模型
+* Linear Models 线性模型
     + Linear Regression 线性回归
     + Logistic Regression 逻辑回归
-    + Neural Network 神经网络 (NN)
     + SVM 支持向量机
         - Linear Kernel 线性核
         - Gaussian Kernel 高斯核
 
+* Neural Network 神经网络 (NN)
 
 
 * Bayesian Models 贝叶斯模型
@@ -31,7 +31,6 @@
     + Gradient Boosting
     + Logit Boosting
 
-* Isotonic regression
 
 ### Clustering 聚类
 
@@ -41,7 +40,7 @@
 
 * Gaussian Mixture Model 混合高斯模型 (GMM)
 
-* power iteration clustering (PIC)
+* Power Iteration Clustering (PIC)
 
 ### Dimensionality Reduction 降维
 
@@ -85,6 +84,15 @@
 * Markov Random Field 马尔科夫随机场 (MRF)
 
 * Conditional Random Field 条件随机场 (CRF)
+
+
+### [Deep Learning](http://deeplearning.net/) [深度学习](http://blog.sciencenet.cn/blog-315535-663215.html) 
+
+* AutoEncoder
+
+* Sparse Coding
+
+* Restrict Boltzmann Machine (RBM)
 
 ## 3. Important Concepts 重要概念
 
