@@ -2,14 +2,14 @@
 
 ### Classification and Regression 分类与回归
 
-* Generalized Linear Models 泛化线性模型
+* Linear Models 线性模型
     + Linear Regression 线性回归
     + Logistic Regression 逻辑回归
-    + Neural Network 神经网络 (NN)
     + SVM 支持向量机
         - Linear Kernel 线性核
         - Gaussian Kernel 高斯核
 
+* Neural Network 神经网络 (NN)
 
 
 * Bayesian Models 贝叶斯模型
@@ -31,7 +31,6 @@
     + Gradient Boosting
     + Logit Boosting
 
-* Isotonic regression
 
 ### Clustering 聚类
 
@@ -41,7 +40,7 @@
 
 * Gaussian Mixture Model 混合高斯模型 (GMM)
 
-* power iteration clustering (PIC)
+* Power Iteration Clustering (PIC)
 
 ### Dimensionality Reduction 降维
 
@@ -86,6 +85,21 @@
 
 * Conditional Random Field 条件随机场 (CRF)
 
+
+### [Deep Learning](http://deeplearning.net/) [深度学习](http://blog.csdn.net/zouxy09/article/details/8775360) 
+
+* AutoEncoder [自动编码器](http://blog.csdn.net/zouxy09/article/details/8775524)
+    + Sparse AutoEncoder 稀疏自动编码器
+    + Denoising AutoEncoders 降噪自动编码器
+
+* Sparse Coding [稀疏编码](http://blog.csdn.net/zouxy09/article/details/8777094)
+
+* Restrict Boltzmann Machine 限制波尔兹曼机 (RBM)
+
+* Deep Belief Networks 深信度网络
+
+* Convolutional Neural Networks [卷积神经网络](http://blog.csdn.net/zouxy09/article/details/8781543)
+
 ## 3. Important Concepts 重要概念
 
 * Bias vs. Variance 偏差与方差
@@ -128,9 +142,6 @@
     + Monte Carlo Simulation [蒙特卡罗模拟](http://www.52nlp.cn/lda-math-mcmc-%E5%92%8C-gibbs-sampling1)
         - Metropolis–Hastings algorithm
         - Gibbs sampling
-    
-* Frequentist inference vs. Bayesian inference 频率推断与贝叶斯推断
-    + pLSA vs. LDA
 
 ### Numerical Optimization 数值优化
 
