@@ -142,9 +142,6 @@
     + Monte Carlo Simulation [蒙特卡罗模拟](http://www.52nlp.cn/lda-math-mcmc-%E5%92%8C-gibbs-sampling1)
         - Metropolis–Hastings algorithm
         - Gibbs sampling
-    
-* Frequentist inference vs. Bayesian inference 频率推断与贝叶斯推断
-    + pLSA vs. LDA
 
 ### Numerical Optimization 数值优化
 
