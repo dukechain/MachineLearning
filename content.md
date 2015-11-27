@@ -86,13 +86,19 @@
 * Conditional Random Field 条件随机场 (CRF)
 
 
-### [Deep Learning](http://deeplearning.net/) [深度学习](http://blog.sciencenet.cn/blog-315535-663215.html) 
+### [Deep Learning](http://deeplearning.net/) [深度学习](http://blog.csdn.net/zouxy09/article/details/8775360) 
 
-* AutoEncoder
+* AutoEncoder [自动编码器](http://blog.csdn.net/zouxy09/article/details/8775524)
+    + Sparse AutoEncoder 稀疏自动编码器
+    + Denoising AutoEncoders 降噪自动编码器
 
-* Sparse Coding
+* Sparse Coding [稀疏编码](http://blog.csdn.net/zouxy09/article/details/8777094)
 
-* Restrict Boltzmann Machine (RBM)
+* Restrict Boltzmann Machine 限制波尔兹曼机 (RBM)
+
+* Deep Belief Networks 深信度网络
+
+* Convolutional Neural Networks [卷积神经网络](http://blog.csdn.net/zouxy09/article/details/8781543)
 
 ## 3. Important Concepts 重要概念
 
