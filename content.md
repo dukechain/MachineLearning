@@ -62,7 +62,12 @@
 * Content Filtering 
 
 * Collaborative Filtering 协同过滤
-    + Alternating Least Squares (ALS)
+    + Neighborhood Methods
+        - Item-oriented
+        - User-oriented
+    + Latent Factor Models
+        - Stochastic Gradient Descent
+        - Alternating Least Squares (ALS)
 
 ### Topic Models [主题模型](http://blog.csdn.net/hxxiaopei/article/details/7617838)
 * Latent Semantic Indexing 潜语义索引 (LSI)
