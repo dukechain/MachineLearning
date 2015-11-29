@@ -66,8 +66,7 @@
         - Item-oriented
         - User-oriented
     + Latent Factor Models
-        - Stochastic Gradient Descent
-        - Alternating Least Squares (ALS)
+        - [Matrix Factorization](http://dl.acm.org/citation.cfm?id=1608614) 
 
 ### Topic Models [主题模型](http://blog.csdn.net/hxxiaopei/article/details/7617838)
 * Latent Semantic Indexing 潜语义索引 (LSI)
@@ -129,6 +128,8 @@
 * Singular Value Decomposition 奇异值分解 ([SVD](http://www.cnblogs.com/LeftNotEasy/archive/2011/01/19/svd-and-applications.html))
 
 * Low Rank Matrix Decomposition 低秩矩阵分解
+    - Stochastic Gradient Descent
+    - Alternating Least Squares (ALS)
 
 ### Probability and Mathematical Statistics 概率论与数理统计
 
