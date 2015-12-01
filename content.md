@@ -2,7 +2,7 @@
 
 ### Classification and Regression 分类与回归
 
-* Linear Models 线性模型
+* Generalized Linear Model 广义线性模型 ([GLM](http://www.cnblogs.com/dreamvibe/p/4259460.html))
     + Linear Regression 线性回归
     + Logistic Regression 逻辑回归
     + SVM 支持向量机
@@ -135,11 +135,17 @@
 
 * Probability Distributions 概率分布
     + Conjugate Prior [共轭先验](http://blog.csdn.net/xianlingmao/article/details/7340099)
-        - Posterior Distributions 后验分布 
-        - Prior Distribution 先验分布
-    + Exponential family 指数族
         - Beta distribution and Binomial distribution
         - Dirichlet distribution and Multinomial distribution
+    + [Exponential Family](https://en.wikipedia.org/wiki/Exponential_family) [指数族](http://blog.csdn.net/stdcoutzyx/article/details/9207047)
+        - Gaussian Distribution
+        - Binomial Distribution
+        - Poisson Distribution
+        - Gamma Distribution
+        - Exponential Distribution
+        - Beta Distribution
+        - Dirichlet Distribution
+
 
 * Parameter Estimation 参数估计方法
     + Maximum Likelihood Estimation 最大似然估计 (MLE)
