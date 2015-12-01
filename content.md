@@ -135,11 +135,17 @@
 
 * Probability Distributions 概率分布
     + Conjugate Prior [共轭先验](http://blog.csdn.net/xianlingmao/article/details/7340099)
-        - Posterior Distributions 后验分布 
-        - Prior Distribution 先验分布
-    + Exponential family 指数族
         - Beta distribution and Binomial distribution
         - Dirichlet distribution and Multinomial distribution
+    + [Exponential Family](https://en.wikipedia.org/wiki/Exponential_family) [指数族](http://blog.csdn.net/stdcoutzyx/article/details/9207047)
+        - Gaussian Distribution
+        - Binomial Distribution
+        - Poisson Distribution
+        - Gamma Distribution
+        - Exponential Distribution
+        - Beta Distribution
+        - Dirichlet Distribution
+
 
 * Parameter Estimation 参数估计方法
     + Maximum Likelihood Estimation 最大似然估计 (MLE)
