@@ -2,7 +2,7 @@
 
 ### Classification and Regression 分类与回归
 
-* Linear Models 线性模型
+* Generalized Linear Model 广义线性模型 ([GLM](http://www.cnblogs.com/dreamvibe/p/4259460.html))
     + Linear Regression 线性回归
     + Logistic Regression 逻辑回归
     + SVM 支持向量机
