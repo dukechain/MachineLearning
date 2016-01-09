@@ -107,7 +107,7 @@
 
 ## 3. Important Concepts 重要概念
 
-* Bias vs. Variance 偏差与方差
+* Bias vs. Variance [偏差与方差](http://nanshu.wang/post/2015-05-17/)
 
 * Underfitting vs. Overfitting 欠拟合与过拟合
 
@@ -115,7 +115,7 @@
 
 * Normalization 归一化
 
-* Learning Curve 学习曲线
+* Learning Curve [学习曲线](http://52opencourse.com/217/coursera%E5%85%AC%E5%BC%80%E8%AF%BE%E7%AC%94%E8%AE%B0-%E6%96%AF%E5%9D%A6%E7%A6%8F%E5%A4%A7%E5%AD%A6%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AC%AC%E5%8D%81%E8%AF%BE-%E5%BA%94%E7%94%A8%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%BB%BA%E8%AE%AE-advice-for-applying-machine-learning)
 
 * Discriminative Model vs. Generative Model 判别式模型与生成式模型
 
