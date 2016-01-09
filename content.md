@@ -11,6 +11,7 @@
 
 * Neural Network 神经网络 (NN)
 
+* K-Nearest Neighbor [K近邻](http://blog.csdn.net/yunduanmuxue/article/details/21777907) ([KNN](http://dataunion.org/4237.html))
 
 * Bayesian Models 贝叶斯模型
     + Naive Bayes 朴素贝叶斯 (NB)
@@ -18,12 +19,12 @@
 
 * Tree Models 树模型
     + Decision Trees 决策树
-        - ID3
+        - [ID3](http://blog.csdn.net/mmc2015/article/details/42525655)
         - C4.5
         - Classification and Regression Tree (CART)
     + Ensembles of Trees 
-        - Random Forests 随机森林
-        - Gradient-Boosted Trees
+        - Random Forests 随机森林 ([RF](http://blog.csdn.net/dianacody/article/details/40706483))
+        - Gradient-Boosted Regression Trees 迭代决策树 ([GBRT](http://blog.csdn.net/dianacody/article/details/40688783))
 
 * (Classifier) Boosting (分类器)提升
     + Ada Boosting
