@@ -20,7 +20,7 @@
 * Tree Models 树模型
     + Decision Trees 决策树
         - [ID3](http://blog.csdn.net/mmc2015/article/details/42525655)
-        - C4.5
+        - [C4.5](http://blog.csdn.net/delltdk/article/details/38681949)
         - Classification and Regression Tree (CART)
     + Ensembles of Trees 
         - Random Forests 随机森林 ([RF](http://blog.csdn.net/dianacody/article/details/40706483))
