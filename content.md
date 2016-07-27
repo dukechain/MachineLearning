@@ -111,7 +111,9 @@
 
 * Underfitting vs. Overfitting 欠拟合与过拟合
 
-* Regularization 正则化
+* Regularization [正则化](https://site.douban.com/182577/widget/notes/10567212/note/288551448/)
+    + Ridge Regression 岭回归
+    + Least Absolute Shrinkage and Selection Operator 最小绝对值收敛和选择算子算法 LASSO
 
 * Normalization 归一化
 
