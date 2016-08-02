@@ -43,10 +43,6 @@
 
 * Power Iteration Clustering (PIC)
 
-### Dimensionality Reduction 降维
-
-* Principal Component Analysis 主成分分析 (PCA)
-
 ### Frequent Pattern Mining 频繁模式挖掘
 
 * Association Rules
@@ -55,7 +51,38 @@
 
 * PrefixSpan
 
+### Feature Engineering [特征工程](http://blog.csdn.net/dream_angel_z/article/details/49388733)
 
+* Feature Construction 特征构建
+
+* Feature Extraction 特征提取
+    + Principal Component Analysis 主成分分析 ([PCA](http://www.cnblogs.com/jerrylead/archive/2011/04/18/2020209.html))
+    + Linear Discriminant Analysis 线性判别分析 ([LDA](http://www.cnblogs.com/LeftNotEasy/archive/2011/01/08/lda-and-pca-machine-learning.html))
+    + Independent Component Analysis 独立成分分析 ([ICA](http://www.cnblogs.com/jerrylead/archive/2011/04/19/2021071.html))
+
+* Feature Selection [特征选择](http://blog.csdn.net/google19890102/article/details/40019271)
+    + 过滤式方法 Filter
+        * 相关系数 Coefficient Score
+        * 卡方检验 Chi-squared Test
+        * 信息增益 Information Gain
+    + 封装式方法 [Wrapper](http://www.cnblogs.com/heaad/archive/2011/01/02/1924088.html) 
+        * 完全搜索(Complete)
+        * 启发式搜索(Heuristic)
+        * 随机搜索(Random)
+    + 嵌入式方法 Embedded
+        * 正则化
+        * 决策树
+        * 深度学习
+
+
+
+
+
+### Model Evaluation [模型评价](http://blog.csdn.net/heyongluoyao8/article/details/49408319)
+
+* Offline Evaluation 离线评价
+
+* Online Evaluation 在线评价
 
 ## 2. Special Topics 专题
 
