@@ -61,15 +61,15 @@
     + Independent Component Analysis 独立成分分析 ([ICA](http://www.cnblogs.com/jerrylead/archive/2011/04/19/2021071.html))
 
 * Feature Selection [特征选择](http://blog.csdn.net/google19890102/article/details/40019271)
-    + 过滤式方法 Filter
-        * 相关系数 Coefficient Score
-        * 卡方检验 Chi-squared Test
-        * 信息增益 Information Gain
-    + 封装式方法 [Wrapper](http://www.cnblogs.com/heaad/archive/2011/01/02/1924088.html) 
-        * 完全搜索(Complete)
-        * 启发式搜索(Heuristic)
-        * 随机搜索(Random)
-    + 嵌入式方法 Embedded
+    + Filter 过滤式方法 
+        * Coefficient Score 相关系数 
+        * Chi-squared Test 卡方检验 
+        * Information Gain 信息增益 
+    + Wrapper [封装式方法](http://www.cnblogs.com/heaad/archive/2011/01/02/1924088.html) 
+        * Complete 完全搜索
+        * Heuristic 启发式搜索
+        * Random 随机搜索
+    + Embedded 嵌入式方法
         * 正则化
         * 决策树
         * 深度学习
@@ -80,9 +80,29 @@
 
 ### Model Evaluation [模型评价](http://blog.csdn.net/heyongluoyao8/article/details/49408319)
 
-* Offline Evaluation 离线评价
+* Model Validation 模型验证
+    * Hold-out Validation
+    * K-fold cross-validation K折交叉验证
+    * Leave one out/Jackknife 留一交叉验证/刀切法
+    * Bootstrapping 自助法
 
-* Online Evaluation 在线评价
+* Model Testing 模型测试
+    + A/B Testing
+
+
+### Model Selection [模型选择](http://pages.cs.wisc.edu/~arun/vision/)
+
+* Feature Engineering
+
+* Algorithm Selection
+
+* Hyperparameter Tuning 超参数调优
+    + Grid Search 格搜索
+    + Random Search 随机搜索
+    + Smart Search 智能搜索
+        * Derivative-free optimization
+        * Bayesian optimization
+        * random forest smart tuning
 
 ## 2. Special Topics 专题
 
