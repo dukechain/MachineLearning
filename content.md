@@ -1,4 +1,4 @@
-## 1. Primary Topics 基础篇
+## 1. Primary Topics 基础
 
 ### Classification and Regression 分类与回归
 
@@ -17,21 +17,23 @@
     + Naive Bayes 朴素贝叶斯 (NB)
     + Bayesian Network/Belief Network/Directed Acyclic Graphical model [贝叶斯网络](http://blog.csdn.net/v_july_v/article/details/40984699#t6)/信念网络/有向无环图模型
 
-* Tree Models 树模型
-    + Decision Trees 决策树
-        - [ID3](http://blog.csdn.net/mmc2015/article/details/42525655)
-        - [C4.5](http://blog.csdn.net/delltdk/article/details/38681949)
-        - Classification and Regression Tree (CART)
+* Decision Trees 决策树
+    + [ID3](http://blog.csdn.net/mmc2015/article/details/42525655)
+    + [C4.5](http://blog.csdn.net/delltdk/article/details/38681949)
+    + Classification and Regression Tree (CART)
     + Ensembles of Trees 
         - Random Forests 随机森林 ([RF](http://blog.csdn.net/dianacody/article/details/40706483))
         - Gradient-Boosted Regression Trees 迭代决策树 ([GBRT](http://blog.csdn.net/dianacody/article/details/40688783))
 
-* (Classifier) Boosting (分类器)提升
-    + Ada Boosting
-    + L2 Boosting
-    + Gradient Boosting
-    + Logit Boosting
-
+* Ensemble [模型组合](http://baogege.info/2015/04/27/model-aggregation/)
+    + 线性组合
+    + Bootstrap aggregating (Bagging) -> Random Forests 随机森林 ([RF](http://blog.csdn.net/dianacody/article/details/40706483))
+    + Boosting [提升](http://www.cnblogs.com/liuwu265/p/4690486.html)
+        * Adaptive Boosting (AdaBoost) -> 提升树
+        * [Gradient Boosting](http://www.cnblogs.com/LeftNotEasy/archive/2011/01/02/machine-learning-boosting-and-gradient-boosting.html) -> Gradient-Boosted Regression Trees 迭代决策树 ([GBRT](http://blog.csdn.net/dianacody/article/details/40688783))
+        * L2 Boosting
+        * Logit Boosting
+    + Cascade
 
 ### Clustering 聚类
 
@@ -50,6 +52,8 @@
 * FP-growth
 
 * PrefixSpan
+
+## 2. Practice 实践
 
 ### Feature Engineering [特征工程](http://blog.csdn.net/dream_angel_z/article/details/49388733)
 
@@ -73,10 +77,6 @@
         * 正则化
         * 决策树
         * 深度学习
-
-
-
-
 
 ### Model Evaluation [模型评价](http://blog.csdn.net/heyongluoyao8/article/details/49408319)
 
@@ -104,7 +104,7 @@
         * Bayesian optimization
         * random forest smart tuning
 
-## 2. Special Topics 专题
+## 3. Special Topics 专题
 
 ### Recommender System 推荐系统
 * Content Filtering 
@@ -152,7 +152,7 @@
 
 * Convolutional Neural Networks [卷积神经网络](http://blog.csdn.net/zouxy09/article/details/8781543)
 
-## 3. Important Concepts 重要概念
+## 4. Important Concepts 重要概念
 
 * Bias vs. Variance [偏差与方差](http://nanshu.wang/post/2015-05-17/)
 
@@ -169,7 +169,7 @@
 * Discriminative Model vs. Generative Model 判别式模型与生成式模型
 
 
-## 4. Mathematical Fundament 数学基础
+## 5. Mathematical Fundament 数学基础
 
 ### Linear Algebra 线性代数
 
