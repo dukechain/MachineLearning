@@ -4,6 +4,7 @@
 
 * Generalized Linear Model 广义线性模型 ([GLM](http://www.cnblogs.com/dreamvibe/p/4259460.html))
     + Linear Regression 线性回归
+        - Locally Weighted Linear Regression [局部加权线性回归](http://www.cnblogs.com/hust-ghtao/p/3587971.html)
     + Logistic Regression 逻辑回归
     + SVM 支持向量机
         - Linear Kernel 线性核
@@ -17,20 +18,17 @@
     + Naive Bayes 朴素贝叶斯 (NB)
     + Bayesian Network/Belief Network/Directed Acyclic Graphical model [贝叶斯网络](http://blog.csdn.net/v_july_v/article/details/40984699#t6)/信念网络/有向无环图模型
 
-* Decision Trees 决策树
+* Decision Trees [决策树](http://blog.csdn.net/cyningsun/article/details/8735169)
     + [ID3](http://blog.csdn.net/mmc2015/article/details/42525655)
     + [C4.5](http://blog.csdn.net/delltdk/article/details/38681949)
-    + Classification and Regression Tree (CART)
-    + Ensembles of Trees 
-        - Random Forests 随机森林 ([RF](http://blog.csdn.net/dianacody/article/details/40706483))
-        - Gradient-Boosted Regression Trees 迭代决策树 ([GBRT](http://blog.csdn.net/dianacody/article/details/40688783))
+    + [Classification](http://blog.csdn.net/u011067360/article/details/24871801) and [Regression](http://blog.csdn.net/google19890102/article/details/32329823) Tree 分类回归树 (CART)
 
 * Ensemble [模型组合](http://baogege.info/2015/04/27/model-aggregation/)
     + 线性组合
     + Bootstrap aggregating (Bagging) -> Random Forests 随机森林 ([RF](http://blog.csdn.net/dianacody/article/details/40706483))
     + Boosting [提升](http://www.cnblogs.com/liuwu265/p/4690486.html)
-        * Adaptive Boosting (AdaBoost) -> 提升树
-        * [Gradient Boosting](http://www.cnblogs.com/LeftNotEasy/archive/2011/01/02/machine-learning-boosting-and-gradient-boosting.html) -> Gradient-Boosted Regression Trees 迭代决策树 ([GBRT](http://blog.csdn.net/dianacody/article/details/40688783))
+        * Adaptive Boosting [自适应提升](http://blog.csdn.net/v_july_v/article/details/40718799) ([AdaBoost](http://blog.csdn.net/dark_scope/article/details/14103983)) -> Boosting Tree [提升树](http://www.tqcto.com/article/framework/2769.html)
+        * [Gradient Boosting](http://www.cnblogs.com/LeftNotEasy/archive/2011/01/02/machine-learning-boosting-and-gradient-boosting.html) -> Gradient-Boosted Regression Trees [梯度提升回归树](http://blog.csdn.net/dark_scope/article/details/24863289) ([GBRT/GBDT](http://blog.csdn.net/dianacody/article/details/40688783))
         * L2 Boosting
         * Logit Boosting
     + Cascade
@@ -68,7 +66,7 @@
     + Filter 过滤式方法 
         * Coefficient Score 相关系数 
         * Chi-squared Test 卡方检验 
-        * Information Gain 信息增益 
+        * Mutual Information/Information Gain 互信息/信息增益 
     + Wrapper [封装式方法](http://www.cnblogs.com/heaad/archive/2011/01/02/1924088.html) 
         * Complete 完全搜索
         * Heuristic 启发式搜索
