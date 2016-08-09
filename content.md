@@ -25,10 +25,10 @@
 
 * Ensemble [模型组合](http://baogege.info/2015/04/27/model-aggregation/)
     + 线性组合
-    + Bootstrap aggregating (Bagging) -> Random Forests 随机森林 ([RF](http://blog.csdn.net/dianacody/article/details/40706483))
+    + Bootstrap aggregating (Bagging) -> Random Forests [随机森林](http://blog.csdn.net/holybin/article/details/25653597) ([RF](http://blog.csdn.net/dianacody/article/details/40706483))
     + Boosting [提升](http://www.cnblogs.com/liuwu265/p/4690486.html)
-        * Adaptive Boosting [自适应提升](http://blog.csdn.net/v_july_v/article/details/40718799) ([AdaBoost](http://blog.csdn.net/dark_scope/article/details/14103983)) -> Boosting Tree [提升树](http://www.tqcto.com/article/framework/2769.html)
-        * [Gradient Boosting](http://www.cnblogs.com/LeftNotEasy/archive/2011/01/02/machine-learning-boosting-and-gradient-boosting.html) -> Gradient-Boosted Regression Trees [梯度提升回归树](http://blog.csdn.net/dark_scope/article/details/24863289) ([GBRT/GBDT](http://blog.csdn.net/dianacody/article/details/40688783))
+        * Adaptive Boosting [自适应提升](http://blog.csdn.net/v_july_v/article/details/40718799) ([AdaBoost](http://blog.csdn.net/dark_scope/article/details/14103983)) -> Boosting Tree [提升树](http://www.tqcto.com/article/framework/2770.html)
+        * [Gradient Boosting](http://www.cnblogs.com/LeftNotEasy/archive/2011/01/02/machine-learning-boosting-and-gradient-boosting.html) -> Gradient-Boosted [Regression](http://blog.csdn.net/w28971023/article/details/8240756) Trees [梯度提升回归树](http://blog.csdn.net/dark_scope/article/details/24863289) ([GBRT/GBDT](http://blog.csdn.net/dianacody/article/details/40688783))
         * L2 Boosting
         * Logit Boosting
     + Cascade
