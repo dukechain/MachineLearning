@@ -4,7 +4,7 @@
 
 * Generalized Linear Model 广义线性模型 ([GLM](http://www.cnblogs.com/dreamvibe/p/4259460.html))
     + Linear Regression 线性回归
-        - Locally Weighted Linear Regression [局部加权线性回归](http://www.cnblogs.com/hust-ghtao/p/3587971.html)
+        - Locally Weighted Linear Regression [局部加权线性回归](http://www.cnblogs.com/hust-ghtao/p/3587971.html) [LWLR](http://wenda.chinahadoop.cn/question/3524)
     + Logistic Regression 逻辑回归
     + SVM 支持向量机
         - Linear Kernel 线性核
@@ -166,6 +166,7 @@
 
 * Discriminative Model vs. Generative Model 判别式模型与生成式模型
 
+* Parametric Model vs. Nonparametric Model [参数模型和非参数模型](http://wenda.chinahadoop.cn/question/3669) 
 
 ## 5. Mathematical Fundament 数学基础
 
