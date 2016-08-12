@@ -6,9 +6,12 @@
     + Linear Regression 线性回归
         - Locally Weighted Linear Regression [局部加权线性回归](http://www.cnblogs.com/hust-ghtao/p/3587971.html) [LWLR](http://wenda.chinahadoop.cn/question/3524)
     + Logistic Regression 逻辑回归
-    + SVM 支持向量机
-        - Linear Kernel 线性核
-        - Gaussian Kernel 高斯核
+
+* Suport Vector Machine 支持向量机 [SVM](http://blog.csdn.net/v_july_v/article/details/7624837)
+    + Linear Kernel 线性核
+    + Polynomial Kernel 多项式核
+    + Radial Basis Function/Gaussian Kernel 高斯核 RBF
+
 
 * Neural Network 神经网络 (NN)
 
