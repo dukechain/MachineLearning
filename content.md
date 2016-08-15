@@ -155,9 +155,10 @@
 
 ## 4. Important Concepts 重要概念
 
-* Bias vs. Variance [偏差与方差](http://nanshu.wang/post/2015-05-17/)
-
 * Underfitting vs. Overfitting 欠拟合与过拟合
+    + Bias vs. Variance [偏差与方差](http://nanshu.wang/post/2015-05-17/)
+    
+* Empirical Risk Minimization vs. Structural Risk Minimization [经验风险与结构风险](http://blog.csdn.net/ice110956/article/details/14002791) (ERM vs. SRM)
 
 * Regularization [正则化](https://site.douban.com/182577/widget/notes/10567212/note/288551448/)
     + Ridge Regression 岭回归
