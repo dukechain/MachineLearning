@@ -4,11 +4,14 @@
 
 * Generalized Linear Model 广义线性模型 ([GLM](http://www.cnblogs.com/dreamvibe/p/4259460.html))
     + Linear Regression 线性回归
-        - Locally Weighted Linear Regression [局部加权线性回归](http://www.cnblogs.com/hust-ghtao/p/3587971.html)
+        - Locally Weighted Linear Regression [局部加权线性回归](http://www.cnblogs.com/hust-ghtao/p/3587971.html) [LWLR](http://wenda.chinahadoop.cn/question/3524)
     + Logistic Regression 逻辑回归
-    + SVM 支持向量机
-        - Linear Kernel 线性核
-        - Gaussian Kernel 高斯核
+
+* Suport Vector Machine 支持向量机 [SVM](http://blog.csdn.net/v_july_v/article/details/7624837)
+    + Linear Kernel 线性核
+    + Polynomial Kernel 多项式核
+    + Radial Basis Function/Gaussian Kernel 高斯核 RBF
+
 
 * Neural Network 神经网络 (NN)
 
@@ -152,9 +155,10 @@
 
 ## 4. Important Concepts 重要概念
 
-* Bias vs. Variance [偏差与方差](http://nanshu.wang/post/2015-05-17/)
-
 * Underfitting vs. Overfitting 欠拟合与过拟合
+    + Bias vs. Variance [偏差与方差](http://nanshu.wang/post/2015-05-17/)
+    
+* Empirical Risk Minimization vs. Structural Risk Minimization [经验风险与结构风险](http://blog.csdn.net/ice110956/article/details/14002791) (ERM vs. SRM)
 
 * Regularization [正则化](https://site.douban.com/182577/widget/notes/10567212/note/288551448/)
     + Ridge Regression 岭回归
@@ -166,6 +170,7 @@
 
 * Discriminative Model vs. Generative Model 判别式模型与生成式模型
 
+* Parametric Model vs. Nonparametric Model [参数模型和非参数模型](http://wenda.chinahadoop.cn/question/3669) 
 
 ## 5. Mathematical Fundament 数学基础
 
